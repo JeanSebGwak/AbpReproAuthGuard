@@ -1,0 +1,9 @@
+﻿using Xunit;
+
+namespace Repro.LocalizationAndAuthGuard.EntityFrameworkCore;
+
+[CollectionDefinition(LocalizationAndAuthGuardTestConsts.CollectionDefinitionName)]
+public class LocalizationAndAuthGuardEntityFrameworkCoreCollection : ICollectionFixture<LocalizationAndAuthGuardEntityFrameworkCoreFixture>
+{
+
+}

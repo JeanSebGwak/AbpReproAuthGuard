@@ -1,0 +1,9 @@
+﻿using Repro.LocalizationAndAuthGuard.EntityFrameworkCore;
+using Xunit;
+
+namespace Repro.LocalizationAndAuthGuard.EntityFrameworkCore;
+
+public class LocalizationAndAuthGuardEntityFrameworkCoreCollectionFixtureBase : ICollectionFixture<LocalizationAndAuthGuardEntityFrameworkCoreFixture>
+{
+
+}
